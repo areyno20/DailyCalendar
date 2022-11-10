@@ -36,17 +36,17 @@ p {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #ffc9c9;
   color: white;
 }
 
 .present {
-  background-color: #9dfff0;
+  background-color: #a2a7ff;
   color: white;
 }
 
 .future {
-  background-color: #e6ff81;
+  background-color: #ffd89e;
   color: white;
 }
 
