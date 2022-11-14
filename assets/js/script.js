@@ -37,6 +37,38 @@ function plannerFunction() {
 })
 };
 
-plannerFunction()
 
+//Retrieve storage - restores input once page is reloaded
+function retrieveStorage(){
+  var nine = localStorage.getItem('9');
+  $("#9 .desc").val(nine)
+
+  var ten = localStorage.getItem('10');
+  $("#10 .desc").val(ten)
+
+  var eleven = localStorage.getItem('11');
+  $("#11 .desc").val(eleven)
+
+  var twelve = localStorage.getItem('12');
+  $("#12 .desc").val(twelve)
+
+  var thirteen = localStorage.getItem('13');
+  $("#13 .desc").val(thirteen)
+
+  var fourteen = localStorage.getItem('14');
+  $("#14 .desc").val(fourteen)
+
+  var fifteen = localStorage.getItem('15');
+  $("#15 .desc").val(fifteen)
+
+  var sixteen = localStorage.getItem('16');
+  $("#16 .desc").val(sixteen)
+
+  var seventeen = localStorage.getItem('17');
+  $("#17 .desc").val(seventeen)
+}
+
+
+plannerFunction()
+retrieveStorage()
 
