@@ -2,7 +2,7 @@
 
 ## Description
 
-This challenege is intended to showcase the skills learnt for the subject of third-party API's of the boot camp. It contains a web page with a daily planner.
+This challenege is intended to showcase the skills learnt for the subject of third-party API's. It contains a web page with a daily planner.
 
 ## Usage
 
